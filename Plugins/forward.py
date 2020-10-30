@@ -1,6 +1,6 @@
 import pyrogram
 from pyrogram import filters
-from bot.py import channelforward
+from bot import channelforward
 
 
 @channelforward.on_message(filter.private)
