@@ -1,8 +1,8 @@
 import pyrogram
-from pyrogram import Filters
+from pyrogram.types import filters
 from bot.py import channelforward
 
 
-@channelforward.on_message(Filter.private)
+@channelforward.on_message(filter.private)
 async def forward(c, m):
     print("working")
