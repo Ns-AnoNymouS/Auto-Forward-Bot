@@ -11,18 +11,20 @@ from config import Config
 from pyrogram import Client 
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-if __name__ == "__main__" :
-    plugins = dict(
-        root="plugins"
-    )
-    app = Client(
-        "auto",
-        bot_token=Config.TG_BOT_TOKEN,
-        api_id=Config.APP_ID,
-        api_hash=Config.API_HASH,
-        plugins=plugins,
-        workers=100
-    )
+class channelforward(Client):
+    
+    def __init__(self):
+        super().__init__(
+            session_name="CHANNELFORWARD",
+            bot_token = Config.BOT_TOKEN,
+            api_id = Config.API_ID,
+            api_hash = Config.API_HASH,
+            workers = 20,
+            plugins = dict(
+                root="plugins"
+            )
+        )
 
-    app.run()
+if __name__ == "__main__" :
+    channleforward.run()
 
