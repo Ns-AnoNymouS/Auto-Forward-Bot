@@ -1,5 +1,5 @@
 import pyrogram
-from pyrogram.types import filters
+from pyrogram import filters
 from bot.py import channelforward
 
 
