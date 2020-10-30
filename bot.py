@@ -26,5 +26,5 @@ class channelforward(Client):
         )
 
 if __name__ == "__main__" :
-    channelforward.run()
+    channelforward().run()
 
