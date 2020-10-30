@@ -3,6 +3,6 @@ from pyrogram import filters
 from bot import channelforward
 
 
-@channelforward.on_message(filter.private)
+@channelforward.on_message(filters.private)
 async def forward(c, m):
     print("working")
