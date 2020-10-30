@@ -1,2 +1,2 @@
-https://github.com/pyrogram/pyrogram
+https://github.com/Mahesh0253/pyrogram/archive/beta.zip
 tgcrypto
