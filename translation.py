@@ -1,5 +1,5 @@
 class Translation(object):
-      START = "Hi I am a channel auto forward bot clone of <a href="https://t.me/Autoforward_Nsbot">Channel Automatic NS bot</a>"             
+      START = "Hi I am a channel auto forward bot clone of <a href='https://t.me/Autoforward_Nsbot'>Channel Automatic NS bot</a>"             
       ABOUT = """
 📝 Language: Python 3
 🧰 Framework: Pyrogram
