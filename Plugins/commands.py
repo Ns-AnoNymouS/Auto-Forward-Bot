@@ -13,4 +13,4 @@ async def start(c, m):
       await c.send_message(chat_id=m.chat.id,
                            text=Translation.START,
                            parse_mode="html",
-                           quote=True)
+                           reply_to_message_id=m.message_id)
