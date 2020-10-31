@@ -37,25 +37,8 @@ This repo is the clone of [CHANNEL AUTOMATIC NS BOT](https://telegram.dog/Autofo
 ```
 start - check whether bot is alive 
 
-converttovideo - reply to the media for converting into video 
-
-converttofile - reply to the media for converting into file 
-
-help - know how to use this bot
-
 about - to know about me
 ```
-### start
-<p align="center">
-<img src="https://telegra.ph/file/3cb7e3725cd991373dd9b.jpg" alt="START">
-
-### help
-<p align="center">
-<img src="https://telegra.ph/file/0ba25cedf094225ad7175.jpg" alt="HELP">
-
-### about
-<p align="center">
-<img src="https://telegra.ph/file/f6ad0e22825afe65ddcd2.jpg" alt="ABOUT">
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 #
