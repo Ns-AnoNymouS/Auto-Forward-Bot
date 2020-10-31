@@ -9,6 +9,3 @@ async def forward(c, m):
        from_channel, to_channel = id.split(":")
        if m.chat.id == int(from_channel):
           await m.forward(int(to_channel))
-       print(from_channel)
-       print(to_channel)
-    print(Config.CHANNEL)
