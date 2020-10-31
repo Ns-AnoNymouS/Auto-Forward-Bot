@@ -7,7 +7,7 @@ from config import Config
 async def forward(c, m):
     for id in Config.CHANNEL:
        from_channel, to_channel = id.split(":")
-       if m.chat.id == from_channel:
+       if m.chat.id == int(from_channel):
           await m.forward(to_channel)
        print(from_channel)
        print(to_channel)
