@@ -1,7 +1,7 @@
 ## CHANNEL AUTO FORWARD
 This repo is the clone of [CHANNEL AUTOMATIC NS BOT](https://telegram.dog/Autoforward_Nsbot)
 
-**NOTE:** there is more difference between my bot and this repo. But the purposes is same
+**NOTE:** There is more difference between my bot and this repo. But the purposes is same
 
 
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT/tree/main)
@@ -11,9 +11,9 @@ This repo is the clone of [CHANNEL AUTOMATIC NS BOT](https://telegram.dog/Autofo
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ns-AnoNymouS/auto-caption-bot/tree/main)
 - 👆 Press the deploy button.
 
-- Give a name to your app.
-
-- Get your API hashes, Id from [my.telegram.org](https://my.telegram.org/)
+- Go to  [my.telegram.org](https://my.telegram.org/)
+     - And get your API ID
+     - And API Hashes
 
 - Paste the below API_HASH and API_ID respectively.
 
