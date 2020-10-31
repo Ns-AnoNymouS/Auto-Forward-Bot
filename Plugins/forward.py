@@ -5,6 +5,7 @@ from config import Config
 
 @channelforward.on_message(filters.channel)
 async def forward(c, m):
+    # Forwarding the messages to the channel
     for id in Config.CHANNEL:
        from_channel, to_channel = id.split(":")
        if m.chat.id == int(from_channel):
