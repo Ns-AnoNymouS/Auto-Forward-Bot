@@ -23,6 +23,10 @@
       "description": "Get this value from https://my.telegram.org",
       "value": ""
     },
+    "CHANNEL": {
+      "description": "your channel id",
+      "value": ""
+    },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
       "value": ""
