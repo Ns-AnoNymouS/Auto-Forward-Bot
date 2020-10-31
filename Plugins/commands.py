@@ -4,6 +4,10 @@ from bot import channelforward
 from config import Config
 from translation import Translation
 
+
+
+#strat command
+
 @channelforward.on_message(filters.command(["start"]))
 async def start(c, m):
       await m.send_message(chat_id=m.chat.id,
