@@ -17,11 +17,13 @@ This repo is the clone of [CHANNEL AUTOMATIC NS BOT](https://telegram.dog/Autofo
 
 - Paste the below API_HASH and API_ID respectively.
 
+- Get the your channel id and paste in below in the format -1000233548:-10006379
+     - If you want to first id (-1000233548) should be from which channel you need to forward and second channel(-10006379) will be to which channel message should be forwarded.
+
 - Get the Bot Father Token from [@BotFather](https://telegram.dog/botfather)
 
 - Paste the token below TG_BOT_TOKEN.
 
-- 
 
 <i>YouTube video</i> - <a href="https://youtu.be/zQamSjXBpJU"><img src="https://img.shields.io/badge/How%20To-Create-red.svg?logo=Youtube"></a>
 
