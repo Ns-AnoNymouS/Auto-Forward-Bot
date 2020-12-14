@@ -17,7 +17,7 @@ This repo is the clone of [CHANNEL AUTOMATIC NS BOT](https://telegram.dog/Autofo
 
 - Paste the below API_HASH and API_ID respectively.
 
-- Get the your channel id and paste in below in the format -1000233548:-10006379
+- Get the your channel id and paste in below in the format -10023352648:-100655379
      - In the about format -10023352648 is the channel from which you need to forward 
      - and -100655379 is the channel to which you wanted to forward 
 
