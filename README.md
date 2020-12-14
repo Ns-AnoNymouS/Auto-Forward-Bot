@@ -7,7 +7,7 @@ This repo is the clone of [CHANNEL AUTOMATIC NS BOT](https://telegram.dog/Autofo
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT/tree/main)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://telegram.dog/Ns_AnoNymouS)
 
-## How Deploy? 🤔
+## How to Deploy? 🤔
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ns-AnoNymouS/auto-caption-bot/tree/main)
 - 👆 Press the deploy button.
 
