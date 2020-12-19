@@ -20,6 +20,7 @@ This repo is the clone of [CHANNEL AUTOMATIC NS BOT](https://telegram.dog/Autofo
 - Get the your channel id and paste in below in the format -10023352648:-100655379
      - In the about format -10023352648 is the channel from which you need to forward 
      - and -100655379 is the channel to which you wanted to forward 
+[<p align="center"><img src="https://telegra.ph/file/2130bae31fa168ae57224.jpg" width="100">](https://telegram.dog/Ns_bot_updates)
 
 - Get the Bot Father Token from [@BotFather](https://telegram.dog/botfather)
 
