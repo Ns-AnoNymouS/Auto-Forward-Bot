@@ -1,30 +1,26 @@
 {
-  "name": "Channel Auto forward bot",
-  "description": "Telegram auto forwarding bot. Create your Fork now.",
-  "keywords": [
-    "telegram",
-    "best",
-    "forward"
-  ],
-  "logo": "https://telegra.ph/file/5b5dd216d70b29c80e25e.jpg",
-  "success_url": "https://telegram.dog/Autoforward_Nsbot",
-  "website": "https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT",
-  "repository": "https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT",
-  "env": {
-    "WEBHOOK": {
-      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
-      "value": "ANYTHING"
-    },
-    "TG_BOT_TOKEN": {
-      "description": "Your bot token, as a string.",
-      "value": ""
-    },
-    "APP_ID": {
-      "description": "Get this value from https://my.telegram.org",
-      "value": ""
-    },
+    "name": "Channel Auto forward bot",
+    "description": "Telegram auto forwarding bot. Create your Fork now.",
+    "keywords": [
+        "telegram",
+        "simple",
+        "auto",
+        "forward"
+    ],
+    "logo": "https://telegra.ph/file/5b5dd216d70b29c80e25e.jpg",
+    "success_url": "https://telegram.dog/Autoforward_Nsbot",
+    "repository": "https://github.com/Ns-AnoNymouS/Auto-Forward-Bot",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "Your bot token, as a string. Get this from @BotFather",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+         },
     "CHANNEL_ID": {
-      "description": "your channel id in format -12352626:-34466(from channel id:to channel id) if you want to give more channels seperate them with white space",
+      "description": "your channel id in format -1002352626:-10034466(from channel id:to channel id) if you want to give more channels seperate them with white space",
       "value": ""
     },
     "API_HASH": {
@@ -32,13 +28,7 @@
       "value": ""
     }
   },
-  "addons": [
-  ],
-  "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  }, {
-    "url": "heroku/python"
-  }],
+  "buildpacks": [{"url": "heroku/python"}],
   "formation": {
     "worker": {
       "quantity": 1,
