@@ -1,15 +1,16 @@
-## CHANNEL AUTO FORWARD
-This repo is the clone of [CHANNEL AUTOMATIC NS BOT](https://telegram.dog/Autoforward_Nsbot)
-
-**NOTE:** There is more difference between my bot and this repo. But the purposes is same
-
+# CHANNEL AUTO FORWARD
+A Simple telegram bot written in python to forward your files from one channel to other channel when a new post is available. What you need to do is just deploy this code. 
 
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT/tree/main)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://telegram.dog/Ns_AnoNymouS)
 
 ## How to Deploy? 🤔
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ns-AnoNymouS/auto-caption-bot/tree/main)
-- 👆 Press the deploy button.
+You can deploy this code any where you want but we provided heroku and railway deploy methods below
+
+- Select one of the methods
+     - [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ns-AnoNymouS/auto-caption-bot)
+
+     - [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/wEf927)
 
 - Go to  [my.telegram.org](https://my.telegram.org/)
      - And get your API ID
@@ -24,9 +25,9 @@ This repo is the clone of [CHANNEL AUTOMATIC NS BOT](https://telegram.dog/Autofo
 
 - Get the Bot Father Token from [@BotFather](https://telegram.dog/botfather)
 
-- Paste the token below TG_BOT_TOKEN.
+- Paste the token below BOT_TOKEN.
 
-
+- Set AS_COPY value to True if you want to forward messages without forward tag.
 
 
 ## How to reach Me ?

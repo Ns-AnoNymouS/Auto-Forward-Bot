@@ -1,2 +1,3 @@
-https://github.com/Mahesh0253/pyrogram/archive/beta.zip
+uvloop
 tgcrypto
+pyrogram~=2.0.59
