@@ -1,2 +1,2 @@
-https://github.com/Mahesh0253/pyrogram/archive/beta.zip
 tgcrypto
+pyrogram~=2.0.59
