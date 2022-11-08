@@ -1,30 +1,37 @@
-import pyrogram
-
 import logging
-logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
-
-import os
-
-from config import Config
-from pyrogram import Client 
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logging.getLogger().setLevel(logging.INFO)
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-class channelforward(Client):
-    
+import uvloop
+uvloop.install()
+from config import Config
+from pyrogram import Client 
+
+
+class channelforward(Client, Config):
     def __init__(self):
         super().__init__(
-            session_name="CHANNELFORWARD",
-            bot_token = Config.BOT_TOKEN,
-            api_id = Config.API_ID,
-            api_hash = Config.API_HASH,
-            workers = 20,
-            plugins = dict(
-                root="Plugins"
-            )
+            name="CHANNELFORWARD",
+            bot_token=self.BOT_TOKEN,
+            api_id=self.API_ID,
+            api_hash=self.API_HASH,
+            workers=20,
+            plugins={'root': 'Plugins'}
         )
+
+    async def start(self):
+        await super().start()
+        me = await self.get_me()
+        print(f"New session started for {me.first_name}({me.username})")
+
+    async def stop(self):
+        await super().stop()
+        print("Session stopped. Bye!!")
+
 
 if __name__ == "__main__" :
     channelforward().run()
-
