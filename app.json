@@ -11,28 +11,26 @@
     "success_url": "https://telegram.dog/Autoforward_Nsbot",
     "repository": "https://github.com/Ns-AnoNymouS/Auto-Forward-Bot",
     "env": {
-        "TG_BOT_TOKEN": {
+        "AS_COPY": {
+            "description": "set this to true to forward message as copy",
+            "value": "False" 
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+        },
+        "BOT_TOKEN": {
             "description": "Your bot token, as a string. Get this from @BotFather",
             "value": ""
         },
-        "APP_ID": {
-            "description": "Get this value from https://my.telegram.org",
+        "CHANNEL_ID": {
+            "description": "your channel id in format -10023352648:-100655379 (from channel id:to channel id) if you want to give more channels seperate them with white space",
             "value": ""
-         },
-    "CHANNEL_ID": {
-      "description": "your channel id in format -1002352626:-10034466(from channel id:to channel id) if you want to give more channels seperate them with white space",
-      "value": ""
+        }
     },
-    "API_HASH": {
-      "description": "Get this value from https://my.telegram.org",
-      "value": ""
-    }
-  },
-  "buildpacks": [{"url": "heroku/python"}],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "free"
-    }
-  }
+    "buildpacks": [{"url": "heroku/python"}]
 }
