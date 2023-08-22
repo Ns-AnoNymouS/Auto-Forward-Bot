@@ -8,7 +8,7 @@
         "forward"
     ],
     "success_url": "https://telegram.dog/Autoforward_Nsbot",
-    "repository": "https://github.com/Ns-AnoNymouS/Auto-Forward-Bot",
+    "repository": "https://github.com/NimsaraLk/Auto-Forward-Bot",
     "env": {
         "AS_COPY": {
             "description": "set this to true to forward message as copy",
